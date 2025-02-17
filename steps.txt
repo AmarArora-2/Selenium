@@ -1,0 +1,14 @@
+#open browser
+#Pass URl "https://www.google.com/"
+#CApture the Text Box
+#send Values "Selenium"
+#Validate
+
+#driver.find_element(By.NAME,"q")
+
+#exp_title = selenium - Google Search
+@act_title = driver.title
+if exp_title == act_title:
+print(Test Pass)
+else:
+print(Test Failed)
